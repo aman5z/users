@@ -60,8 +60,7 @@ body{background:var(--bg);color:var(--txt);font-size:13px;height:100vh;display:f
 .hamburger{display:none;background:none;border:none;font-size:16px;cursor:pointer;padding:0 5px;color:#fff;flex-shrink:0}
 
 /* ─── MENUBAR ─── */
-.menubar{background:var(--tb);border-bottom:1px solid var(--tb-b);padding:0 3px;display:flex;flex-shrink:0;overflow-x:auto}
-.mb-item{position:relative}
+.menubar{background:var(--tb);border-bottom:1px solid var(--tb-b);padding:0 3px;display:flex;flex-shrink:0;flex-wrap:wrap;position:relative;z-index:10}.mb-item{position:relative}
 .mb-btn{padding:3px 9px;cursor:pointer;font-size:12px;border:1px solid transparent;color:var(--txt);background:transparent;white-space:nowrap;user-select:none;display:block}
 .mb-btn:hover,.mb-btn.open{background:var(--sel);color:#fff;border-color:var(--sel)}
 .dropdown{display:none;position:absolute;top:100%;left:0;background:var(--modal);border:1px solid var(--bdr);z-index:900;min-width:190px;box-shadow:3px 4px 12px rgba(0,0,0,.4)}
